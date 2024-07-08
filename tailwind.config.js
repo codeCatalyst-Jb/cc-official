@@ -2,6 +2,9 @@
 const colors = require("tailwindcss/colors");
 
 module.exports = {
+  images: {
+    domains: ["firebasestorage.googleapis.com"],
+  },
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",

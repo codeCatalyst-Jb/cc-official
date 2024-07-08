@@ -5,42 +5,41 @@ import SingleTestimonial from "./SingleTestimonial";
 const testimonialData: Testimonial[] = [
   {
     id: 1,
-    name: "Musharof Chy",
-    designation: "Founder @TailGrids",
+    name: "Akash Das",
+    designation: "Computer Science Student",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    image: "/images/testimonials/auth-01.png",
+      "Code Catalyst has been an amazing resource for me! Joining the workshops helped me master Git and I learned so much from collaborating on real-world projects with other members.",
+    image: "/images/testimonials/student-01.png", // Replace with placeholder image
     star: 5,
   },
   {
     id: 2,
-    name: "Devid Weilium",
-    designation: "Founder @UIdeck",
+    name: "Rohan Kumar",
+    designation: "Web Developer Intern",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    image: "/images/testimonials/auth-02.png",
+      "Thanks to Code Catalyst's hackathons, I was able to push my skills and build a portfolio project that landed me a web developer internship! The supportive community and guidance from mentors made a huge difference.",
+    image: "/images/testimonials/developer-01.png", // Replace with placeholder image
     star: 5,
   },
   {
     id: 3,
-    name: "Lethium Frenci",
-    designation: "Founder @Lineicons",
+    name: "Ayush Singh",
+    designation: "Software Engineer",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
-    image: "/images/testimonials/auth-03.png",
+      "Code Catalyst has helped me stay up-to-date with the latest tech trends through their insightful talks and workshops. The community is full of passionate individuals who are always willing to help and share their knowledge.",
+    image: "/images/testimonials/engineer-01.png", // Replace with placeholder image
     star: 5,
   },
+
 ];
 
 const Testimonials = () => {
   return (
     <section className="dark:bg-bg-color-dark bg-gray-light relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
-        <SectionTitle
-          title="What Our Users Says"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
-          center
-        />
+      <SectionTitle
+    title="Hear from Tech Enthusiasts"  paragraph="Our members share their experiences and the impact the society has had on their tech journey."  center
+  />
 
         <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
           {testimonialData.map((testimonial) => (

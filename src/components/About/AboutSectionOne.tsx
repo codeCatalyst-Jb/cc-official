@@ -24,8 +24,8 @@ const AboutSectionOne = () => {
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title="Crafted for Startup, SaaS and Business Sites."
-                paragraph="The main ‘thrust’ is to focus on educating attendees on how to best protect highly vulnerable business applications with interactive panel discussions and roundtables."
+                title="Helping Students Learn, Grow, Create and Destroy."
+                paragraph="The main ‘thrust’ is to focus on educating students on how to best forge their skills and develop a portfolio with numerous Projects and tech."
                 mb="44px"
               />
 
@@ -34,16 +34,17 @@ const AboutSectionOne = () => {
                 data-wow-delay=".15s"
               >
                 <div className="mx-[-12px] flex flex-wrap">
-                  <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Premium quality" />
-                    <List text="Tailwind CSS" />
-                    <List text="Use for lifetime" />
-                  </div>
-
-                  <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Next.js" />
-                    <List text="Rich documentation" />
-                    <List text="Developer friendly" />
+                  <div className="mx-[-12px] flex flex-wrap">
+                    <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
+                      <List text="Build Real-world Projects" />
+                      <List text="Master In-demand Skills" />
+                      <List text="Connect with Tech Enthusiasts" />
+                    </div>
+                    <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
+                      <List text="Learn from Industry Experts" />
+                      <List text="Prepare for Tech Careers" />
+                      <List text="Contribute to Open Source" />
+                    </div>
                   </div>
                 </div>
               </div>
