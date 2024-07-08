@@ -12,7 +12,7 @@ const Hero = () => {
             <div className="w-full px-4">
               <div className="mx-auto max-w-[800px] text-center">
                 <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
-                Unlocking Tech Potential: Empowering Tomorrow's Innovators
+                Unlocking Tech Potential: Empowering Tomorrow &apos; s Innovators
                 </h1>
                 <p className="mb-12 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">
                 Empowering the Next Generation of Tech Innovators: Our coding community is dedicated to providing students with invaluable insights into the tech world. Through interactive learning, hands-on projects, and expert guidance, we enhance their tech skills and prepare them for a successful future in technology.
