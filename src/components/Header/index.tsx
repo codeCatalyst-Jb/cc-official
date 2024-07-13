@@ -43,7 +43,7 @@ const Header = () => {
       <header
         className={`header left-0 top-0 z-40 flex w-full items-center ${
           sticky
-            ? "dark:bg-gray-dark dark:shadow-sticky-dark fixed z-[9999] bg-white !bg-opacity-80 shadow-sticky backdrop-blur-sm transition"
+            ? "fixed z-[9999] bg-white !bg-opacity-80 shadow-sticky backdrop-blur-sm transition dark:bg-gray-dark dark:shadow-sticky-dark"
             : "absolute bg-transparent"
         }`}
       >
@@ -56,20 +56,20 @@ const Header = () => {
                   sticky ? "py-5 lg:py-2" : "py-8"
                 } `}
               >
-                {/* <Image
-                  src=""
+                <Image
+                  src="/images/logo/cclogo.svg"
                   alt="logo"
                   width={140}
-                  height={30}
-                  className="w-full dark:hidden"
+                  height={20} // Adjusted height to reflect the desired height in CSS
+                  className="navbar-logo flex w-full object-cover dark:hidden rounded-lg"
                 />
                 <Image
-                  src=""
+                  src="/images/logo/cclogo.svg"
                   alt="logo"
                   width={140}
-                  height={30}
-                  className="hidden w-full dark:block"
-                /> */}
+                  height={60} // Adjusted height to reflect the desired height in CSS
+                  className="navbar-logo hidden w-full object-cover dark:block rounded-lg"
+                />
               </Link>
             </div>
             <div className="flex w-full items-center justify-between px-4">

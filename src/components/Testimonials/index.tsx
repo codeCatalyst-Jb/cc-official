@@ -9,7 +9,7 @@ const testimonialData: Testimonial[] = [
     designation: "Computer Science Student",
     content:
       "Code Catalyst has been an amazing resource for me! Joining the workshops helped me master Git and I learned so much from collaborating on real-world projects with other members.",
-    image: "/images/testimonials/student-01.png", // Replace with placeholder image
+    image: "https://images.unsplash.com/photo-1623053434406-befaaad987d0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // Replace with placeholder image
     star: 5,
   },
   {
@@ -18,7 +18,7 @@ const testimonialData: Testimonial[] = [
     designation: "Web Developer Intern",
     content:
       "Thanks to Code Catalyst's hackathons, I was able to push my skills and build a portfolio project that landed me a web developer internship! The supportive community and guidance from mentors made a huge difference.",
-    image: "/images/testimonials/developer-01.png", // Replace with placeholder image
+    image: "https://images.unsplash.com/photo-1609081524998-a1163e2d44cb?q=80&w=2187&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // Replace with placeholder image
     star: 5,
   },
   {
@@ -27,7 +27,7 @@ const testimonialData: Testimonial[] = [
     designation: "Software Engineer",
     content:
       "Code Catalyst has helped me stay up-to-date with the latest tech trends through their insightful talks and workshops. The community is full of passionate individuals who are always willing to help and share their knowledge.",
-    image: "/images/testimonials/engineer-01.png", // Replace with placeholder image
+    image: "https://images.unsplash.com/photo-1604177091072-b7b677a077f6?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // Replace with placeholder image
     star: 5,
   },
 
